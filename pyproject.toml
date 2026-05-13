@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engine"
+version = "0.1.0"
+description = "A custom N-dimensional Autograd Tensor Engine"
+dependencies = [
+    "numpy>=1.20.0",
+    "scikit-learn>=1.0"
+]
+
+[tool.setuptools]
+packages = ["engine"]
