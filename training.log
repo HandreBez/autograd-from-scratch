@@ -9,3 +9,14 @@
 [00:40:12] INFO: Epoch 05/5 | Loss: 0.0538 | Test Acc: 96.96% | Time: 2.6s
 [00:40:12] INFO: Training complete. Exporting weights...
 [00:40:12] INFO: Weights saved to models/mnist_mlp.npz. Session concluded.
+[22:25:40] INFO: Starting new training session...
+[22:25:43] INFO: Hyperparameters: Epochs=5, Batch Size=128, LR=0.005
+[22:25:43] INFO: Initializing architecture: 784 -> 128 -> 64 -> 10
+[22:25:43] INFO: Commencing training loop...
+[22:25:46] INFO: Epoch 01/5 | Loss: 0.2523 | Test Acc: 95.47% | Time: 2.5s
+[22:25:48] INFO: Epoch 02/5 | Loss: 0.1071 | Test Acc: 97.17% | Time: 2.3s
+[22:25:50] INFO: Epoch 03/5 | Loss: 0.0769 | Test Acc: 97.49% | Time: 2.2s
+[22:25:52] INFO: Epoch 04/5 | Loss: 0.0643 | Test Acc: 97.64% | Time: 2.2s
+[22:25:55] INFO: Epoch 05/5 | Loss: 0.0539 | Test Acc: 97.67% | Time: 2.1s
+[22:25:55] INFO: Training complete. Exporting weights...
+[22:25:55] INFO: Weights saved to models/mnist_mlp.npz. Session concluded.
